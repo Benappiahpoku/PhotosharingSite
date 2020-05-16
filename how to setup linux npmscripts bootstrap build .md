@@ -81,6 +81,7 @@
   - Global install
   - sudo npm install -g --unsafe-perm onchange
   - 
+  - 
   - local install
   - npm i onchange --save--dev
   - 
@@ -88,7 +89,10 @@
   - watch images ==> onchange 'assets/img/*' -- imagemin assets/img/* --out-dir dist/img
   -   
   
-
+# how to install and use browser-sync?
+  - sudo npm install -g --unsafe-perm browser-sync
+  - browser-sync start --server --files . checks the index.html for changes
+  - move index.html to main folder and sync from there
  
 # how to use the npm to run the scripts in the terminal?
   - npm run builds  ==> everthing into dist folder for development
