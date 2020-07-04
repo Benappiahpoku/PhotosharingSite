@@ -20,8 +20,12 @@
   },
   "homepage": "https://github.com/Benappiahpoku/bootstrap4linuxnpmscripts#readme",
   "dependencies": {
+    "bootstrap": "^4.5.0",
     "imagemin-cli": "^5.1.0",
-    "onchange": "^7.0.2"
+    "jquery": "^3.5.1",
+    "onchange": "^7.0.2",
+    "popper.js": "^1.16.1",
+    "tether": "^1.4.7"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.6",
